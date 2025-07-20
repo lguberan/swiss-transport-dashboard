@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#d60000"/>
+
+  <!-- Train body -->
+  <rect x="60" y="40" width="80" height="100" rx="20" fill="white"/>
+
+  <!-- Top vent slit -->
+  <rect x="85" y="48" width="30" height="10" rx="5" fill="#d60000"/>
+
+  <!-- Front window -->
+  <rect x="75" y="65" width="50" height="30" rx="6" fill="#d60000"/>
+
+  <!-- Headlights -->
+  <circle cx="80" cy="125" r="8" fill="#d60000"/>
+  <circle cx="120" cy="125" r="8" fill="#d60000"/>
+
+  <!-- Rails -->
+  <polygon points="70,140 40,180 50,180 80,145" fill="white"/>
+  <polygon points="130,140 160,180 150,180 120,145" fill="white"/>
+  <!-- Traverse -->
+  <rect x="65" y="150" width="70" height="4" fill="white"/>
+  <rect x="050" y="165" width="95" height="6" fill="white"/>
+
+  <!-- Swiss cross -->
+  <g fill="white">
+    <rect x="145" y="20" width="10" height="30"/>
+    <rect x="135" y="30" width="30" height="10"/>
+  </g>
+</svg>

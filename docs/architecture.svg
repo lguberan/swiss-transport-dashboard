@@ -1,0 +1,43 @@
+<svg width="850" height="240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+    <!-- Boxes with adjusted height and roundedness -->
+    <rect x="20" y="60" width="200" height="100" fill="white" stroke="black" stroke-width="2" rx="10"/>
+    <rect x="320" y="60" width="200" height="100" fill="white" stroke="black" stroke-width="2" rx="10"/>
+    <rect x="620" y="60" width="200" height="100" fill="white" stroke="black" stroke-width="2" rx="10"/>
+
+    <!-- Text inside boxes -->
+    <text x="120" y="95" font-size="16" font-weight="bold" text-anchor="middle" dominant-baseline="middle">Web
+        Browser
+    </text>
+    <text x="120" y="125" font-size="14" text-anchor="middle" dominant-baseline="middle">(User UI))</text>
+
+    <text x="420" y="90" font-size="16" font-weight="bold" text-anchor="middle">Angular</text>
+    <text x="420" y="110" font-size="16" font-weight="bold" text-anchor="middle">Frontend</text>
+    <text x="420" y="135" font-size="14" text-anchor="middle">(Search + Display UI)</text>
+
+    <text x="720" y="90" font-size="16" font-weight="bold" text-anchor="middle">Spring Boot</text>
+    <text x="720" y="110" font-size="16" font-weight="bold" text-anchor="middle">Backend</text>
+    <text x="720" y="135" font-size="14" text-anchor="middle">(calls transport.opendata.ch)</text>
+
+    <!-- Arrows -->
+
+    <line x1="228" y1="110" x2="311" y2="110" stroke="black" marker-start="url(#arrowhead)"
+          marker-end="url(#arrowtail)"/>
+    <line x1="528" y1="110" x2="611" y2="110" stroke="black" marker-start="url(#arrowhead)"
+          marker-end="url(#arrowtail)"/>
+
+    <!-- Arrowhead Definition -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7"
+                refX="5" refY="3.5" orient="auto-start-reverse" markerUnits="strokeWidth">
+            <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+        </marker>
+        <marker id="arrowtail" markerWidth="10" markerHeight="7"
+                refX="5" refY="3.5" orient="auto" markerUnits="strokeWidth">
+            <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+        </marker>
+    </defs>
+
+    <!-- HTTP Labels -->
+    <text x="250" y="105" font-size="14">HTTP</text>
+    <text x="550" y="105" font-size="14">HTTP</text>
+</svg>

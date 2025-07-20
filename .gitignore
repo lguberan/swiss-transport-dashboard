@@ -1,0 +1,19 @@
+# backend Java/Maven
+backend/target/
+
+# frontend Node/Angular
+frontend/node_modules/
+frontend/.angular/
+frontend/dist/
+
+# IDEs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# custom file
+useful.txt
+*.log

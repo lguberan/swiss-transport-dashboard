@@ -1,0 +1,32 @@
+<div class="container">
+  <h1 class="title">Swiss Transport Dashboard</h1>
+
+  <div class="search-box">
+    <input [(ngModel)]="stationName" class="input" placeholder="Nom de la station"/>
+    <button (click)="search()" class="button">Rechercher</button>
+  </div>
+
+  <div *ngIf="errorMessage" class="error-message">
+    {{ errorMessage }}
+  </div>
+  
+  <div *ngIf="departures?.length" class="results">
+    <h2 class="subtitle">Departures for {{ stationName }}</h2>
+    <table class="table">
+      <thead>
+      <tr>
+        <th>Line</th>
+        <th>Destination</th>
+        <th>Time</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let dep of departures">
+        <td>{{ dep.name }}</td>
+        <td>{{ dep.to }}</td>
+        <td>{{ dep.stop.departure | date:'shortTime' }}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+package com.guberan.transport.controller;
+
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api/check")
+public class Check {
+
+    @GetMapping
+    public String check() {
+        return "Greetings from the Swiss Transport Dashboard!";
+    }
+}
