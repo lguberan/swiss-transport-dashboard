@@ -1,6 +1,6 @@
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Angular](https://img.shields.io/badge/angular-19-red)
+![Angular](https://img.shields.io/badge/angular-20-red)
 
 # Swiss Transport Dashboard
 
